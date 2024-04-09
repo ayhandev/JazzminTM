@@ -1,0 +1,51 @@
+
+
+{% extends "admin/base_site.html" %}
+
+{% block title %}System Resources | Django Administration{% endblock %}
+
+{% block content_title %}
+    <h1>System Resources</h1>
+{% endblock %}
+
+{% block breadcrumbs %}
+    <ol class="breadcrumb" style="background-color: #009977; color: #FFFFFF;">
+        <li class="breadcrumb-item"><a href="{% url 'admin:index' %}" style="color: #FFFFFF;">Home</a></li>
+        <li class="breadcrumb-item" style="color: #FFFFFF;">System Resources</li>
+    </ol>
+{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header" style="background-color: #009977; color: #FFFFFF;">
+                    <h5 class="m-0">CPU Usage</h5>
+                </div>
+                <div class="card-body">
+                    <p>{{ cpu_usage }}%</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header" style="background-color: #009977; color: #FFFFFF;">
+                    <h5 class="m-0">Memory Usage</h5>
+                </div>
+                <div class="card-body">
+                    <p>{{ memory_usage }}%</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header" style="background-color: #009977; color: #FFFFFF;">
+                    <h5 class="m-0">Disk Usage</h5>
+                </div>
+                <div class="card-body">
+                    <p>{{ disk_usage }}%</p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
