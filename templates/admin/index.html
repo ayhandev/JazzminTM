@@ -21,29 +21,19 @@
         <div class="col-lg-10">
             <ol class="breadcrumb" style="background-color: #009977; color: #FFFFFF;">
                 <li class="breadcrumb-item"><a href="{% url 'admin:index' %}" style="color: #FFFFFF;">{% trans 'Home' %}</a></li>
-                <li class="breadcrumb-item" style="color: #FFFFFF;">TM EDITION AYHAN GROUP</li>
+                <li class="breadcrumb-item" style="color: #FFFFFF;">TM EDITION Ayhanchik✌️</li>
             </ol>
         </div>
         <div class="col-lg-10 mt-3" style="background-color: #009977;border-radius: 10px; padding: 10px;">
             <div class="col-lg-10" style="">
                 <h5 style="color: white;">
-                    System Resources   
+                    System Resours
                 </h5>
             </div>
             <hr>
             <div>
                 <div class="row">
-                    <div class="col-lg-6">
-                        <div class="card">
-                            <div class="card-header" style="background-color: #009977; color: #FFFFFF;">
-                                <h5 class="m-0">CPU Usage</h5>
-                            </div>
-                            <div class="card-body">
-                                <p id="cpu-usage">Loading...</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-12">
                         <div class="card">
                             <div class="card-header" style="background-color: #009977; color: #FFFFFF;">
                                 <h5 class="m-0">Memory Usage</h5>
@@ -52,8 +42,10 @@
                                 <p id="memory-usage">Loading...</p>
                             </div>
                         </div>
+                        
                     </div>
 
+                    
                 </div>
                 
                 <script>
@@ -63,15 +55,11 @@
                             document.getElementById("memory-usage").innerText = memoryUsage.toFixed(2) + "%";
                         }
                 
-                        if (navigator.hardwareConcurrency) {
-                            var cpuCount = navigator.hardwareConcurrency;
-                            document.getElementById("cpu-usage").innerText = cpuCount + " cores";
-                        }
                     }
                 
                     window.onload = function() {
                         refreshData(); 
-                        setInterval(refreshData, 500); 
+                        setInterval(refreshData, 250); 
                     };
                 </script>
                 
