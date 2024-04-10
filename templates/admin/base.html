@@ -186,7 +186,7 @@
             <aside class="main-sidebar elevation-4 {{ jazzmin_ui.sidebar_classes }}" id="jazzy-sidebar">
                 <a href="{% url 'admin:index' %}" class="brand-link {{ jazzmin_ui.brand_classes }}" id="jazzy-logo">
                     <img  src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Turkmenistan.svg" alt="{{ jazzmin_settings.site_header }} Logo" class="{{ jazzmin_settings.site_logo_classes }} brand-image elevation-3" style="opacity: .8">
-                    <span class="brand-text font-weight-light"><p>TM EDITION ADMIN...</p></span>
+                    <span class="brand-text font-weight-light"><p>TM EDITION V1.0.3</p></span>
                 </a>
 
                 <div class="sidebar">
@@ -325,7 +325,7 @@
     {% if not is_popup %}
         <footer class="main-footer {{ jazzmin_ui.footer_classes }}">
             <div class="float-right d-none d-sm-inline">
-                <b>{% trans 'Jazzmin | TM EDITION 1.0' %}</b> 
+                <b>{% trans 'Jazzmin | TM EDITION 1.0.3' %}</b> 
             </div>
             {% autoescape off %}
                 <strong>{% trans 'Copyright' %} &copy; {% now 'Y' %} {{ jazzmin_settings.copyright }}.</strong>
