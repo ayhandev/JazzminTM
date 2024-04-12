@@ -30,6 +30,3 @@ To use Jazzmin Tm Edition in your Django project, follow the steps below:
 
 
 
-## License
-
-This project is licensed under the MIT License - see file [LICENSE](LICENSE) for details
