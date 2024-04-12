@@ -124,3 +124,184 @@ msgstr "“{object}” pozuldy."
 #, python-brace-format
 msgid "Could not reverse url from {instance}"
 msgstr "{instance} salgysy yzyna alyp bolmady"
+
+msgid "Accounts"
+msgstr "Hasaplary"
+
+msgid "Social Accounts"
+msgstr "Sosial hasaplar"
+
+msgid "Save"
+msgstr "Saklaň"
+
+msgid "Save and add another"
+msgstr "Saklaň we başga birini goşuň"
+
+msgid "Save and continue editing"
+msgstr "Saklaň we redaktirlemegi dowam etdiriň"
+
+msgid "Recent Actions"
+msgstr "Soňky hereketler"
+
+msgid "Django Administration Turkmen Version"
+msgstr "Django Administrasiýasy Türkmen wersiýasy"
+
+msgid "Welcome"
+msgstr "Hoş geldiňiz"
+
+msgid "Log in"
+msgstr "Giriň"
+
+msgid "You have signed out."
+msgstr "Hasabyňyzdan çykdyňyz"
+
+msgid "Home"
+msgstr "Baş sahypa"
+
+msgid "History"
+msgstr "Taryh"
+
+msgid "See Profile"
+msgstr "Profili gör"
+
+msgid "Change password"
+msgstr "Paroly üýtget"
+
+msgid "Dashboard"
+msgstr "Dolandyryş paneli"
+
+msgid "Jazzmin version"
+msgstr "Jazzmin wersiýasy"
+
+msgid "Copyright"
+msgstr "Awtorlyk hukugy"
+
+msgid "All rights reserved."
+msgstr "Ähli hukuklar goralan."
+
+msgid "UI Configuration"
+msgstr "UI Konfigurasiýasy"
+
+msgid "Copy this info your settings file to persist these UI changes"
+msgstr "Bu UI üýtgeşmelerini saklamak üçin bu maglumaty sazlamalar faýlyňyza göçüriň."
+
+msgid "Confirm Import"
+msgstr "Importy tassyklaň"
+
+msgid "Actions"
+msgstr "Hereketler"
+
+msgid "Some rows failed to validate"
+msgstr "Näçe setir barlanmady"
+
+msgid "Please correct these errors in your data where possible, then reupload it using the form above."
+msgstr "Mümkin bolsa, maglumatlaryňyzdaky bu ýalňyşlyklary düzediň we soňra ýokarda görkezilen formany ulanyp gaýtadan ýüklemegiňizi haýyş edýäris."
+
+msgid "Row"
+msgstr "Setir"
+
+msgid "Non field specific"
+msgstr "Meýdansyz"
+
+#, python-format
+msgid "%(timesince)s ago"
+msgstr "%(timesince)s öň"
+
+msgid "This object doesn't have a change history. It probably wasn't added via this admin site."
+msgstr "Bu obýektiň üýtgetme taryhy ýok. Bu, ähtimal, bu admin saýty arkaly goşulmady."
+
+msgid "Popup closing..."
+msgstr "Popup ýapylyar..."
+
+msgid "The admin documentation system requires Python's <a href=\"%(link)s\">docutils</a> library."
+msgstr "Admin dokumentasiýa ulgamy Pythonyň <a href=\"%(link)s\">docutils</a> kitaphanasyny talap edýär."
+
+msgid "View function: <code>%(full_name)s</code>. Name: <code>%(url_name)s</code>."
+msgstr "Görnüş funksiýasy: <code>%(full_name)s</code>. Ady: <code>%(url_name)s</code>."
+
+msgid "General"
+msgstr "Umumy"
+
+msgid "Please enter your old password, for security's sake, and then enter your new password twice so we can verify you typed it in correctly."
+msgstr "Howpsuzlyk üçin ilki öňki parolyňyzy giriziň, soňra täze parolyňyzy iki gezek giriziň, şeýlelikde onuň dogrudygyny barlap bileris."
+
+msgid "Deleted “{object}”."
+msgstr "“{object}” pozuldy
+
+msgid "Email address"
+msgstr "E-poçta adresi"
+
+msgid "Submit"
+msgstr "Tabşyryň"
+
+msgid "Cancel"
+msgstr "Bes et"
+
+msgid "Edit"
+msgstr "Üýtget"
+
+msgid "Delete"
+msgstr "Poz"
+
+msgid "Confirm Delete"
+msgstr "Pozmagy Tassykla"
+
+msgid "Are you sure you want to delete this?"
+msgstr "Muňa pozmagyňyzy hakykatdanam isleýärsiňizmi?"
+
+msgid "No data available"
+msgstr "Elýeterli maglumat ýok"
+
+msgid "Loading..."
+msgstr "Ýüklenýär..."
+
+msgid "Search"
+msgstr "Gözleg"
+
+msgid "No results found."
+msgstr "Netije tapylmady."
+
+msgid "First Name"
+msgstr "At"
+
+msgid "Last Name"
+msgstr "Familiýa"
+
+msgid "User Profile"
+msgstr "Ulanyjy Profili"
+
+msgid "Profile updated successfully."
+msgstr "Profil üstünlikli täzelendi."
+
+msgid "Settings"
+msgstr "Sazlamalar"
+
+msgid "Language"
+msgstr "Dil"
+
+msgid "Select a language"
+msgstr "Dili saýlaň"
+
+msgid "Theme"
+msgstr "Tema"
+
+msgid "Select a theme"
+msgstr "Tema saýlaň"
+
+msgid "Notifications"
+msgstr "Bildirişler"
+
+msgid "Enable notifications"
+msgstr "Bildirişleri işe giriz"
+
+msgid "Disable notifications"
+msgstr "Bildirişleri öçür"
+
+msgid "User"
+msgstr "Ulanyjy"
+
+msgid "Provider"
+msgstr "Üpjün ediji"
+
+msgid "Search"
+msgstr "Gözlemek"
