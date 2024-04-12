@@ -1,0 +1,126 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: django\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-29 17:38+0100\n"
+"PO-Revision-Date: 2021-03-04 20:53+0000\n"
+"Last-Translator: Bruno Brouard <annoa.b@gmail.com>\n"
+"Language-Team: Ayhancik ()\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "First, enter a username and password. Then, you'll be able to edit more user options."
+msgstr "Ilki bilen, ulanyjy adyny we paroly giriziň. Soňra, siz has köp ulanyjy sazlamalaryny redaktirläp bilersiňiz."
+
+msgid "Account"
+msgstr "Hasap"
+
+msgid "Accounts"
+msgstr "hasaplary"
+
+msgid "Social Accounts"
+msgstr "sosial hasaplar"
+
+msgid "Save"
+msgstr "tygşytlaň"
+
+msgid "Save and add another"
+msgstr "Saklaň we başga birini goşuň"
+
+msgid "Save and continue editing"
+msgstr "Redaktirlemegi dowam etdiriň"
+
+msgid "Recent Actions"
+msgstr "Soňky hereketler"
+
+msgid "Django Administration Turkmen Version"
+msgstr "Django Administrasiýasy Türkmen wersiýasy"
+
+msgid "Welcome"
+msgstr "Hoş geldiňiz"
+
+msgid "Log in"
+msgstr "Giriň"
+
+msgid "You have signed out."
+msgstr "Hasabyňyzdan çykdyňyz"
+
+msgid "Home"
+msgstr "Esasy"
+
+msgid "History"
+msgstr "Taryh"
+
+msgid "See Profile"
+msgstr "Profili gör"
+
+msgid "Change password"
+msgstr "paroly üýtgetmek"
+
+msgid "Dashboard"
+msgstr "Panel"
+
+msgid "Jazzmin version"
+msgstr "Jazzmin wersiýasy"
+
+msgid "Copyright"
+msgstr "Awtorlyk hukugy"
+
+msgid "All rights reserved."
+msgstr "Ähli hukuklar goralan."
+
+msgid "UI Configuration"
+msgstr "UI Konfigurasiýasy"
+
+msgid "Copy this info your settings file to persist these UI changes"
+msgstr "UI-däki bu üýtgeşmeleri saklamak üçin bu maglumaty sazlamalar faýlyňyza göçüriň."
+
+msgid "Confirm Import"
+msgstr "Importy tassyklaň"
+
+msgid "Actions"
+msgstr "Hereketler"
+
+msgid "Some rows failed to validate"
+msgstr "Näçe setir barlanmady"
+
+msgid "Please correct these errors in your data where possible, then reupload it using the form above."
+msgstr "Mümkin bolsa, maglumatlaryňyzdaky bu ýalňyşlyklary düzediň we soňra ýokarda görkezilen formany ulanyp gaýtadan ýüklemegiňizi haýyş edýäris."
+
+msgid "Row"
+msgstr "Setir"
+
+msgid "Non field specific"
+msgstr "Meýdansyz"
+
+#, python-format
+msgid "%(timesince)s ago"
+msgstr "%(timesince)s öň"
+
+msgid "This object doesn't have a change history. It probably wasn't added via this admin site."
+msgstr "Bu obýektiň üýtgetme taryhy ýok. Bu, ähtimal, bu admin saýty arkaly goşulmady."
+
+msgid "Popup closing..."
+msgstr "Popup ýapylyar..."
+
+msgid "The admin documentation system requires Python's <a href=\"%(link)s\">docutils</a> library."
+msgstr "Admin dokumentasiýa ulgamy Pythonyň <a href=\"%(link)s\">docutils</a> kitaphanasyny talap edýär."
+
+msgid "View function: <code>%(full_name)s</code>. Name: <code>%(url_name)s</code>."
+msgstr "Görnüş funksiýasy: <code>%(full_name)s</code>. Ady: <code>%(url_name)s</code>."
+
+msgid "General"
+msgstr "Umumy"
+
+msgid "Please enter your old password, for security's sake, and then enter your new password twice so we can verify you typed it in correctly."
+msgstr "Howpsuzlyk üçin ilki öňki parolyňyzy giriziň, soňra täze parolyňyzy iki gezek giriziň, şeýlelikde onuň dogrudygyny barlap bileris."
+
+msgid "Deleted “{object}”."
+msgstr "“{object}” pozuldy."
+
+#, python-brace-format
+msgid "Could not reverse url from {instance}"
+msgstr "{instance} salgysy yzyna alyp bolmady"
