@@ -27,3 +27,9 @@ To use Jazzmin Tm Edition in your Django project, follow the steps below:
    ... other applications
 ]
 3. If you want to set the Turkmen language, then in the same 'setting.py' find: LANGUAGE_CODE. and write: LANGUAGE_CODE = 'tk' # set the Turkmen language.
+
+
+
+## License
+
+This project is licensed under the MIT License - see file [LICENSE](LICENSE) for details
