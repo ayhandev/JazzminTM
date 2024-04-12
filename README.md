@@ -1,6 +1,6 @@
 # Jazzmin Tm Edition
 
-Jazzmin Tm Edition — This is a modification of the popular Django Jazzmin admin panel with the addition of support for the Turkmen language, an updated appearance and a function to display memory usage. This is a modification of the popular Django Jazzmin admin theme with the addition of support for the Turkmen language, an updated appearance and a function to display memory usage.
+Jazzmin Tm Edition — This is a modification of the popular Django Jazzmin admin panel with the addition of support for the Turkmen language, an updated appearance and a function to display memory usage. 
 
 ## Main functions
 
