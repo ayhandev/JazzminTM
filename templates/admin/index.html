@@ -7,10 +7,36 @@
 
 {% block content_title %}
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        .container {
+            background-color: #009977;
+            border-radius: 10px;
+            padding: 10px;
+            color: white;
+            width: 80%;
+            margin: auto;
+        }
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            color: black;
+            padding: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        canvas {
+            width: 100% !important;
+            height: 300px; /* Высота канваса для лучшей видимости */
+        }
+        input[type="range"] {
+            width: 100%;
+            margin-top: 20px;
+        }
+    </style>
     <div class="row">
         <div class="col-lg-8">
-            <h1>Django Administration Turkmen Version <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Turkmenistan.svg" alt="Flag" style="width: 24px; vertical-align: middle;"></h1>
+            <h1> {% trans 'Django Administration Turkmen Version' %} <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Turkmenistan.svg" alt="Flag" style="width: 24px; vertical-align: middle;"></h1>
         </div>
+        
     </div>
 
 {% endblock %}
@@ -23,10 +49,11 @@
                 <li class="breadcrumb-item" style="color: #FFFFFF;">TM EDITION Ayhanchik✌️</li>
             </ol>
         </div>
+        
         <div class="col-lg-10 mt-3" style="background-color: #009977;border-radius: 10px; padding: 10px;">
             <div class="col-lg-10" style="">
                 <h5 style="color: white;">
-                    System Resours
+                 {% trans 'Visit to the Admin panel page' %}   
                 </h5>
             </div>
             <hr>
@@ -35,7 +62,7 @@
                     <div class="col-lg-12">
                         <div class="card" >
                             <div class="card-header" style="background-color: white; color: #FFFFFF;">
-                                <canvas id="memory-chart"></canvas>
+                                <canvas id="visit-chart"></canvas>
                             </div>
                         </div>
                         
@@ -45,52 +72,52 @@
                 </div>
                 
                 <script>
-                    var ctx = document.getElementById('memory-chart').getContext('2d');
-                    var memoryChart;
-            
-                    function refreshData() {
-                        if (window.performance && window.performance.memory) {
-                            var memoryUsage = (window.performance.memory.usedJSHeapSize / window.performance.memory.totalJSHeapSize) * 100;
-            
-                            updateChart(memoryUsage);
-                        }
+                    // Инициализация или обновление счётчика посещений
+                    if (!localStorage.getItem('visits')) {
+                        localStorage.setItem('visits', JSON.stringify([0, 0, 0, 0, 0, 0, 0]));
                     }
-            
-                    function updateChart(memoryUsage) {
-                        if (!memoryChart) {
-                            memoryChart = new Chart(ctx, {
-                                type: 'doughnut',
-                                data: {
-                                    labels: ['Used Memory', 'Unused Memory'],
-                                    datasets: [{
-                                        label: 'Memory Usage',
-                                        data: [memoryUsage, 100 - memoryUsage],
-                                        backgroundColor: [
-                                            'rgba(255, 99, 132, 0.8)',
-                                            'rgba(54, 162, 235, 0.8)'
-                                        ],
-                                        borderWidth: 1
-                                    }]
-                                },
-                                options: {
-                                    responsive: true,
-                                    maintainAspectRatio: false
+                
+                    const visitData = JSON.parse(localStorage.getItem('visits'));
+                    const dayOfWeek = new Date().getDay(); // Получаем день недели (0-воскресенье, 6-суббота)
+                    visitData[dayOfWeek]++;
+                    localStorage.setItem('visits', JSON.stringify(visitData));
+                
+                    // Функция для генерации дат последних 7 дней
+                    function getLast7DaysLabels() {
+                        const labels = [];
+                        for (let i = 6; i >= 0; i--) {
+                            const d = new Date();
+                            d.setDate(d.getDate() - i);
+                            labels.push(d.toLocaleDateString()); // Используем формат даты по умолчанию
+                        }
+                        return labels;
+                    }
+                
+                    const ctx = document.getElementById('visit-chart').getContext('2d');
+                    const visitChart = new Chart(ctx, {
+                        type: 'line',
+                        data: {
+                            labels: getLast7DaysLabels(), // Используем функцию для генерации меток
+                            datasets: [{
+                                label: '{% trans 'How many times have you visited the admin panel' %}',
+                                data: visitData,
+                                borderColor: 'rgb(75, 192, 192)',
+                                backgroundColor: 'rgba(75, 192, 192, 0.5)',
+                                fill: true
+                            }]
+                        },
+                        options: {
+                            scales: {
+                                y: {
+                                    beginAtZero: true
                                 }
-                            });
-                        } else {
-                            memoryChart.data.datasets[0].data = [memoryUsage, 100 - memoryUsage];
-                            memoryChart.update();
+                            }
                         }
-                    }
-            
-                    window.onload = function() {
-                        refreshData();
-                        setInterval(refreshData, 1000);
-                    };
+                    });
                 </script>
                 
-                
-                
+            
+            
             </div>
         </div>
     </div>

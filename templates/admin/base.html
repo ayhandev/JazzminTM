@@ -159,6 +159,17 @@
                         <a href="{% url 'admin:password_change' %}" class="dropdown-item">
                             <i class="fas fa-key mr-2"></i> {% trans 'Change password' %}
                         </a>
+                        <a href="#" class="dropdown-item" >
+                        <form action="{% url 'admin:logout' %}" method="post" style="display:inline;">
+                            {% csrf_token %}
+                            <button type="submit" class="dropdown-item" style="background: none; border: none; padding: 0; margin: 0; color: inherit; font: inherit; cursor: pointer;">
+                                <i class="fas fa-sign-out-alt mr-2"></i> {% trans 'Logout' %}
+                            </button>
+                        </form>
+                    </a>
+                        
+                        
+                        
                         <div class="dropdown-divider"></div>
                         {% get_user_menu user request.current_app|default:"admin" as user_menu %}
                         {% for link in user_menu %}
@@ -186,7 +197,7 @@
             <aside class="main-sidebar elevation-4 {{ jazzmin_ui.sidebar_classes }}" id="jazzy-sidebar">
                 <a href="{% url 'admin:index' %}" class="brand-link {{ jazzmin_ui.brand_classes }}" id="jazzy-logo">
                     <img  src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Turkmenistan.svg" alt="{{ jazzmin_settings.site_header }} Logo" class="{{ jazzmin_settings.site_logo_classes }} brand-image elevation-3" style="opacity: .8">
-                    <span class="brand-text font-weight-light"><p>TM EDITION V1.0.5</p></span>
+                    <span class="brand-text font-weight-light"><p>TM EDITION V1.0.6</p></span>
                 </a>
 
                 <div class="sidebar">
@@ -325,11 +336,11 @@
     {% if not is_popup %}
         <footer class="main-footer {{ jazzmin_ui.footer_classes }}">
             <div class="float-right d-none d-sm-inline">
-                <b>{% trans 'Jazzmin | TM EDITION 1.0.5' %}</b> 
+                <b>{% trans 'Jazzmin | TM EDITION 1.0.6' %}</b> 
             </div>
             {% autoescape off %}
-            <strong>Made by Ayhanchik✌️ .</strong>
-            Modified jazzmin
+            <strong>© 2024 <a href="https://github.com/ayhandev/">ayhandev</a></strong>
+
                 
             {% endautoescape %}
         </footer>
