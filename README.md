@@ -1,12 +1,12 @@
 # Jazzmin Tm Edition
 
-Jazzmin Tm Edition — This is a modification of the popular Django Jazzmin admin panel with the addition of support for the Turkmen language, an updated appearance and a function to display memory usage. 
+Jazzmin TM Edition is a modification of the popular Django admin panel Jazzmin, with added support for the Turkmen language, an updated look, and a feature that displays how many times you've logged into the site.
 
 ## Main functions
 
 - **Turkmen language support:** Fully localized interface for Turkmen users.
 - **Updated appearance:** Modern and responsive interface design.
-- **Memory monitoring:** A widget on the control panel that shows how many percent of the device’s RAM is full.
+- **Login monitoring** A dashboard widget that shows how many times login actions have been performed on the site.
 
 ## Installation
 
