@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-29 17:38+0100\n"
 "PO-Revision-Date: 2024-04-13 21:36+0500\n"
-"Last-Translator: Bruno Brouard <annoa.b@gmail.com>\n"
+"Last-Translator: Bruno Brouard <Ayhancik>\n"
 "Language-Team: Ayhancik ()\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -1019,3 +1019,9 @@ msgstr "Hasabyňyzdan çykdyňyz."
 
 msgid "Log in again"
 msgstr "Hasabyňyza giriň"
+
+msgid "Logout"
+msgstr "Hasapdan çykmak"
+
+msgid "Changed Name."
+msgstr "Üýtgedilen at."
