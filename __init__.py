@@ -1,6 +1,9 @@
 import django
 
-version = "2.6.1"
+author = 'ayhan'
+version = "1.0.6"
 
 if django.VERSION < (3, 2):
-    default_app_config = "jazzmin.apps.JazzminConfig"
+    default_app_config = "JazzminTM.apps.JazzminTMConfig"
+
+

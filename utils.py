@@ -10,7 +10,7 @@ from django.db.models.base import ModelBase, Model
 from django.db.models.options import Options
 from django.utils.translation import gettext
 
-from jazzmin.compat import NoReverseMatch, reverse
+from JazzminTM.compat import NoReverseMatch, reverse
 
 logger = logging.getLogger(__name__)
 

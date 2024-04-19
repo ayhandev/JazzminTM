@@ -187,11 +187,11 @@ THEMES = {
 DARK_THEMES = ("darkly", "cyborg", "slate", "solar", "superhero")
 
 CHANGEFORM_TEMPLATES = {
-    "single": "jazzmin/includes/single.html",
-    "carousel": "jazzmin/includes/carousel.html",
-    "collapsible": "jazzmin/includes/collapsible.html",
-    "horizontal_tabs": "jazzmin/includes/horizontal_tabs.html",
-    "vertical_tabs": "jazzmin/includes/vertical_tabs.html",
+    "single": "JazzminTM/includes/single.html",
+    "carousel": "JazzminTM/includes/carousel.html",
+    "collapsible": "JazzminTM/includes/collapsible.html",
+    "horizontal_tabs": "JazzminTM/includes/horizontal_tabs.html",
+    "vertical_tabs": "JazzminTM/includes/vertical_tabs.html",
 }
 
 

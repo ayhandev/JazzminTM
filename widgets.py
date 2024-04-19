@@ -3,7 +3,7 @@ from django.forms.widgets import Select, SelectMultiple
 
 
 class JazzminSelect(Select):
-    template_name = "jazzmin/widgets/select.html"
+    template_name = "JazzminTM/widgets/select.html"
 
     @property
     def media(self):
@@ -14,7 +14,7 @@ class JazzminSelect(Select):
 
 
 class JazzminSelectMultiple(SelectMultiple):
-    template_name = "jazzmin/widgets/select.html"
+    template_name = "JazzminTM/widgets/select.html"
 
     def build_attrs(self, base_attrs, extra_attrs=None):
         extra_attrs["multiple"] = "multiple"

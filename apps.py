@@ -2,10 +2,10 @@ from __future__ import unicode_literals
 
 from django.apps import AppConfig
 
-__all__ = ["JazzminConfig"]
+__all__ = ["JazzminTMConfig"]
 
 
 class JazzminConfig(AppConfig):
-    name = "jazzmin"
-    label = "jazzmin"
-    verbose_name = "Jazzmin"
+    name = "JazzminTM"
+    label = "JazzminTM"
+    verbose_name = "JazzminTM"

@@ -10,13 +10,8 @@ Jazzmin TM Edition is a modification of the popular Django admin panel Jazzmin, 
 
 ## Installation
 
-To use Jazzmin Tm Edition in your Django project, follow the steps below:
-
-1. Install the package via git clone:
-   in the terminal write git clone https://github.com/ayhandev/Jazzmin-TM-Edition.git.
-2. install the original "jazzmin" into your virtual environment.
-3. delete the jazzmin folder that you just installed in your virtual environment, it is located in venv/lib/python3.10(or other version)/site-packages/jazzmin.
-4. after you have deleted the original jazzmin, insert the modified jazzmin in its place, and rename it 'jazzmin'.
+To use Jazzmin Tm Edition in your Django project, follow these steps:
+pip install JazzminTM==1.0.6.1
 
 ## Instructions
 
