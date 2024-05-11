@@ -22,9 +22,10 @@ pip install JazzminTM
   INSTALLED_APPS = [
     'JazzminTM'
    ... other applications
+   ]
 ``
 
-]
+
 4. If you want to set the Turkmen language, then in the same 'setting.py' find: LANGUAGE_CODE. and write: LANGUAGE_CODE = 'tk' # set the Turkmen language.
 
 
