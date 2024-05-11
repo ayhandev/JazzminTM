@@ -17,7 +17,8 @@ pip install JazzminTM
 
 1. Open the 'settings.py' file in your project.
 2. Find there: INSTALLED_APPS. and insert 'JazzminTM' into the first line:
-``bash
+
+``
   INSTALLED_APPS = [
     'JazzminTM'
    ... other applications
