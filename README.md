@@ -11,8 +11,9 @@ Jazzmin TM Edition is a modification of the popular Django admin panel Jazzmin, 
 ## Installation
 
 To use Jazzmin Tm Edition in your Django project, follow these steps:
+```
 pip install JazzminTM
-
+```
 ## Instructions
 
 1. Open the 'settings.py' file in your project.
@@ -26,7 +27,8 @@ pip install JazzminTM
 ``
 
 
-4. If you want to set the Turkmen language, then in the same 'setting.py' find: LANGUAGE_CODE. and write: LANGUAGE_CODE = 'tk' # set the Turkmen language.
-
-
+4. If you want to set the Turkmen language, then in the same 'setting.py' find: LANGUAGE_CODE. and write:  
+```
+LANGUAGE_CODE = 'tk'
+```
 
